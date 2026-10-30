@@ -1,0 +1,22 @@
+# Dependencies
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+**/dist/
+**/coverage/
+
+# Uploaded/generated files
+server/uploads/
+server/generated/
+
+# Logs and local tooling
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
